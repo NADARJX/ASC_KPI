@@ -44,10 +44,10 @@ if not st.session_state.authenticated:
         st.stop()  # Prevents further execution
 
 # Load data
-file_path = r"C:\Users\NADARJX\OneDrive - Abbott\Documents\ASC KPI\KPI new- Jun 2025.xlsx"
-df = pd.read_excel(file_path)
-###url = "https://github.com/NADARJX/KPI/blob/main/KPI%20new-%20May%202025.xlsx"
-###df = pd.read_excel(url)
+###file_path = r"C:\Users\NADARJX\OneDrive - Abbott\Documents\ASC KPI\KPI new- Jun 2025.xlsx"
+###df = pd.read_excel(file_path)
+url = "https://raw.githubusercontent.com/NADARJX/ASC_KPI/refs/heads/main/KPI%20new-%20Jun%202025.csv"
+df = pd.read_csv(url)
 
 ###df = pd.read_excel(url, engine='openpyxl')
 
