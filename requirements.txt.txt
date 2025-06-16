@@ -2,3 +2,6 @@ streamlit
 pandas
 plotly
 openpyxl
+json
+requests
+base64
